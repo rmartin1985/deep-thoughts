@@ -46,7 +46,7 @@ function App() {
               <Route exact path="/profile/:username?" component={Profile} />
               <Route exact path="/thought/:id" component={SingleThought} />
 
-              <Route exact path={NoMatch} />
+              <Route component={NoMatch} />
             </Switch>
           </div>
           <Footer />
