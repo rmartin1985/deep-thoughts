@@ -43,7 +43,7 @@ const Profile = () => {
         variables: { id: user._id }
       });
     } catch (e) {
-      console.log(e);
+      console.error(e);
     }
   };
 
